@@ -1,0 +1,124 @@
+/* Dishlist */
+#dl-header-container{
+	padding-bottom: 11px;
+	text-align: center;
+}
+
+#dl-body-container{
+	padding-top: 67px;
+	text-align: center;
+}
+
+.dl-item-group{
+	font-size: 16px;
+	padding: 5px 10px;
+}
+
+.dl-item-title{
+	margin-bottom: 6px;
+	font-size: 20px;
+}
+
+.dl-item-text{
+	margin-bottom: 5px;
+}
+
+#dl-footer-container{
+	text-align: center;
+}
+
+
+/* dishdetail */
+/* same as dl. remove this entry later*/
+#dd-header-container{
+	height: 67px;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.dd-header-bk-button{
+	font-size: 36px;
+	top: 20%;
+	padding: 0 0 0 13px;
+	width: 20%;
+}
+
+.dd-header-title{
+	top: 26%;
+	padding: 0 0 0 0;
+	font-size: 18px;
+	width: 56%;
+}
+
+.dd-header-fav-icon{
+	font-size: 23px;
+	top: 28%;
+	padding: 0 0 0 0px;
+	width: 20%;
+}
+
+.back-btn-orange {
+    color: orange;
+}
+
+.dl-highlight{
+	background-color: #fcf8e3;
+}
+
+#dd-body-container{
+	/* a hack to work with fixed header */
+	padding-top: 67px;
+	margin-bottom: 0;
+	padding-bottom: 80px;
+}
+
+.dd-panel-group{
+	margin-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.dd-panel-group .list-group {
+	text-align: left;
+	padding: 0;
+}
+
+.dd-panel-group .list-group .list-group-item{
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.dd-footer-info{
+	padding: 0;
+	font-size: 16px;
+}
+
+/* Global */
+.container-fluid {
+	padding:0;
+}
+
+.col-md-10{
+	margin: auto;
+	float:none;
+	/*margin-top: 15px;*/
+}
+
+.col-md-4{
+	margin: auto;
+	float: none;
+}
+
+
+@media(min-width:992px){
+	.col-md-10, .col-md-4, .col-md-12{
+		float:none;
+	}
+}
+
+
+
+
